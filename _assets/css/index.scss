@@ -50,3 +50,19 @@
     display: block;
   }
 }
+
+.usa-nav-color {
+  background-color: #162e51;
+}
+
+.usa-nav__primary {
+  
+  > li {
+    margin-right: 4rem;
+
+    > a {
+      color: white !important;
+      font-size: 20px;
+    }
+  }
+}

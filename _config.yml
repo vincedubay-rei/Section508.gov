@@ -28,7 +28,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
   # Required to support the jekyll-sitemap plugin below.
   # Uncomment the url line when ready to push to production. If using different branches for multiple
   # custom domains, edit this url parameter in the relevant branch to match the relevant custom domain.
-  
+
 # Twitter handle. Only the handle, not the URL.
 twitter: 18F
 
@@ -77,22 +77,21 @@ ga:
 
 # Site Navigation
 primary_navigation:
-  - name: Home
+  - name: Create
     url: /
+  - name: Test
+    url: /#
+  - name: Manage
+    url: /#
+  - name: Buy
+    url: /#
+  - name: Sell
+    url: /#
+  - name: Training
+    url: /#
   - name: Blog
-    url: /blog/
-  - name: Document
-    url: /document/
-  - name: Document with sidenav
-    url: /document-with-sidenav/
-  - name: Document submenu
-    children:
-      - name: Navigation link
-        url: "#main-content"
-      - name: Navigation link
-        url: "#main-content"
-      - name: Navigation link
-        url: "#main-content"
+    url: /#
+    
 
 secondary_navigation:
   - name: Secondary link
