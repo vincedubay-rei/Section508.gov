@@ -1,30 +1,44 @@
 <footer class="usa-footer site-footer" role="contentinfo">
   <div class="footer-section-bottom bg-base-lighter">
     <div class="grid-container">
-      <div class="grid-row padding-3">
-        <div class="tablet:grid-col">
-          <div class="logo-links">
-            <a class="footer-logo media_link" href="https://18f.gsa.gov">
-              {% asset logo-img.png width="50" alt="Agency logo" %}
-            </a>
+      <div class="grid-row">
+
+        <a class="usa-footer__logo grid-row mobile-lg:grid-col-8" style="text-decoration: none;" href="https://www.gsa.gov/">
+          <div class="mobile-lg:grid-col-auto">
+            {% asset logos/section508-footer.gif width="48" alt="Footer GSA logo" %}
+          </div>
+
+          <div class="mobile-lg:grid-col-auto">
+            <p>U.S. General Services Administration</p>
+          </div>
+        </a>
+
+        <div class="grid-row mobile-lg:grid-col-4 grid-gap flex-justify-end">
+          <div class="grid-col-auto mobile-lg:grid-col-12 desktop:grid-col-auto">
+            <ul class="usa-list usa-list--unstyled">
+              <li class="usa-footer__secondary-link">
+                <a href="#">Contact US</a>
+              </li>
+              <li class="usa-footer__secondary-link">
+                <a href="#">About Us</a>
+              </li>
+            </ul>
+          </div>
+  
+          <div class="grid-col-auto mobile-lg:grid-col-12 desktop:grid-col-auto">
+            <ul class="usa-list usa-list--unstyled">
+              <li class="usa-footer__secondary-link">
+                <a href="#">Privacy Policy</a>
+              </li>
+              <li class="usa-footer__secondary-link">
+                <a href="#">Website Policies</a>
+              </li>
+            </ul>
           </div>
         </div>
-        <div class="tablet:grid-col"></div>
-        <div class="tablet:grid-col">
-          <ul class="add-list-reset">
-            <li>Footer link</li>
-            <li>Footer link</li>
-            <li>Footer link</li>
-          </ul>
-        </div>
-        <div class="tablet:grid-col">
-          <ul class="add-list-reset">
-            <li>Footer link</li>
-            <li>Footer link</li>
-            <li>Footer link</li>
-          </ul>
-        </div>
+ 
       </div>
+
     </div>
   </div>
 </footer>
